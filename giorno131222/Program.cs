@@ -8,104 +8,86 @@ namespace giorno131222
         {
             Console.WriteLine("Hello World!");
             //esempio 1
-
             /*
-            Console.WriteLine("Come ti chiami? ");
-            string stringa = Console.ReadLine();
-            Console.WriteLine("Inserisci un numero ");
-            int numero =int.Parse(Console.ReadLine());
-            Console.WriteLine("scrivere un booleano ");
-            bool booleano =bool.Parse(Console.ReadLine());
+                      string parola1 = "Ciao";
+                      string parola2 = "Gatto";
+                      string parola3 = "10";
+                      string parola4 = "5";
 
+                      int num1 = 10;
+                      int num2 = 10;
+                      int somma =num1 + num2;
 
-            Console.WriteLine($"cioia sono {stringa} ho inserito il numero {numero} e bool: {booleano}");
+                      Console.WriteLine("la somma della mia striga :" + parola3 + parola4);
+                      Console.WriteLine($"la somma della mia striga :{parola1} {parola2}");
+                      Console.WriteLine($"la somma dei numeri :{somma}");
 
-            */
+          */
 
-            //esempio 2
-            // dichiarere 3 numeri decimale arbitrari
-            //chiedere all utente un quarto numero intero o decimale
-            //stampare su schermo la somma e la media dei4 numeri
+            // esempio 2
             /*
-                        decimal num1 = 12.33m;
-                        decimal num2 = 14.34m;
-                        decimal num3 = 23.4m;
-                        Console.WriteLine("inserisci il quarto numero");
-                        decimal num4 = decimal.Parse(Console.ReadLine());
-                        decimal somma = num1 + num2 + num3 + num4;
+                        Console.WriteLine("inserisci il tuo nome ");
+                        string nome= Console.ReadLine();
+                        Console.WriteLine("inserisci il tuo cognome ");
+                        string cognome = Console.ReadLine();
+                        Console.WriteLine("inserisci la tua età ");
+                        int eta = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Quanti fratelli ne hai ?");
+                        int numFratelli= Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Quante sorelle ne hai ?");
+                        int numSorelle= Convert.ToInt32(Console.ReadLine());
 
-                        Console.WriteLine("la somma : " + somma);
-                        Console.WriteLine("la media : " + somma/4);
+                        Console.WriteLine($"Cioa io sono {nome} {cognome} e ho {eta} anni");
+                        Console.WriteLine($"Hai {numFratelli} fratelli e {numSorelle} sorelle");
             */
-
-            //chiedere all utente 4  numeri
-            //stampare su schermo somma prodotto e media dei 4 numeri
-            //stampare su schermo una stringa cosi formattata:
-            //[dataCorrente[ -[somma] - [prodotto] - [media]
-
-            /*   Console.WriteLine("inserisci il primo numero");
-               double numeri1 = double.Parse(Console.ReadLine());
-               Console.WriteLine("inserisci il secondo numero");
-               double numeri2 = double.Parse(Console.ReadLine());
-               Console.WriteLine("inserisci il terzo numero");
-               double numeri3 = double.Parse(Console.ReadLine());
-               Console.WriteLine("inserisci il quarto numero");
-               double numeri4 = double.Parse(Console.ReadLine());
-               DateTime date = DateTime.Now;   
-
-               double somma = numeri1 + numeri2+ numeri3 + numeri4;
-               double media = somma / 4;
-               double prodotto = numeri1 * numeri2 * numeri3 * numeri4;
-               Console.WriteLine("La somma è : "+ somma + "e la Media :" + media + " il prodotto: "+ prodotto);
-
-               Console.WriteLine("[" + date + "]" + "- " + "[" + somma+ "]" + "-" + "["+ prodotto 
-                   +"]" + "-" + "[" + media + "]");
-
-   */
 
             //esempio 3
 
-            //creare una variabile per salvare la data corrente
-            //stampare su schermo la data corrente
-            //stampare su schermo la data corrente + 1 giorno
-            //stampare su schermo la data corrente - 2 mesi
-            //stampare su schermo la data corrente + 15 anni
-            //stampare su schermo la data corrente nel formato
-            //"/anno/mese/giorno/ora/minuto/secondo/millisecondo"
-            /*
-                        DateTime data = DateTime.Now;
-                        Console.WriteLine(data);
-                        Console.WriteLine(data.AddDays(1));
-                        Console.WriteLine(data.AddMonths(-2));
-                        Console.WriteLine(data.AddYears(15));
-                        Console.WriteLine("la data: " + data.Year + "/" +data.Month + "/" + data.Day 
-                            + "/"+ data.Hour + "/"+ data.Minute + "/"+ data.Second + "/"+ data.Millisecond);
+            /*          Console.WriteLine("Quanti fratelli ne hai ?");
+                        int Fratelli = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Quante sorelle ne hai ?");
+                        int Sorelle = int.Parse(Console.ReadLine());
+                        int total = Fratelli + Sorelle;   
+
+                        Console.WriteLine($"In totale hai : {total} fratelli");
+                        Console.WriteLine("in totale hai " + (Fratelli + Sorelle )+ " fratelli") ;
 
              */
 
-            // esempio 4
+            //esempio 4
+            /*
+                        Console.WriteLine("inserisci il primo numero: ");
+                        double numOne = double.Parse(Console.ReadLine());
+                        Console.WriteLine("inserisci il secondo numero: ");
+                        double numTwo = double.Parse(Console.ReadLine());
+                        double addizione= numOne+ numTwo;
+                        double sottrazione = numOne - numTwo;   
+                        double multiplicazione = numTwo * numOne;  
+                        double  divisione = numOne / numTwo;   
 
-            //chiedere all untente 3 numeri
-            //generare 3 numeri casuali tra 0 e 10
-            //stampare la somma dei 6 numeri
-            //stampare la data corrente + tanti giorni quanto il risultato della somma
 
-            Console.WriteLine("inserisci il primo numero");
-            Random numero1 = new Random();
-            int risult1 = numero1.Next(0, 10);
-            Console.WriteLine("inserisci il secondo numero");
-            Random numero2 = new Random();
-            int risult2 = numero2.Next(0, 10);
-            Console.WriteLine("inserisci il primo numero");
-            Random numero3 = new Random();
-            int risult3 = numero3.Next(0, 10);
-            int somma = risult1 + risult2 + risult3;
+                        Console.WriteLine($"il risultati sono : Addizione : {addizione} , sottrazione : {sottrazione}");
+                        Console.WriteLine($"il risultati sono : multiplicazione : {multiplicazione} , divisione: {divisione}");
+                        Console.WriteLine("operazione di base : " + (numOne + numTwo)/2 );
 
-            DateTime date = DateTime.Now;
-            Console.WriteLine($" 3 numeri : {risult1} , {risult2},{risult3}");
+            */
 
-            Console.WriteLine($"la somma {somma}");
-            Console.WriteLine("la data corrente è : " + date + " " + date.Day + " ");
+
+            //esempio 5
+
+
+            Console.WriteLine("inserisci il primo numero: ");
+            double numero1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("inserisci il secondo numero: ");
+            double numero2 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Il risultato di numero1 + numero2 è " + (numero1 + numero2));
+            Console.WriteLine("Il risultato di numero1 - numero2 è " + (numero1 - numero2));
+            Console.WriteLine("Il risultato di numero1 * numero2 è " + (numero1 * numero2));
+            Console.WriteLine("Il risultato di numero1 / numero2 è " + (numero1 / numero2));
+            Console.WriteLine("Il risultato di (numero1 + numero2)/2 è " + (numero1 + numero2) / 2);
+            Console.WriteLine($"{numero1} + {numero2} = {numero1 + numero2}");
+
         }
     }
 }
