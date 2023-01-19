@@ -1,0 +1,14 @@
+C:\xampp\htdocs\TDPC14C-\Console190123\bin\Debug\netcoreapp3.1\Console190123.exe
+C:\xampp\htdocs\TDPC14C-\Console190123\bin\Debug\netcoreapp3.1\Console190123.deps.json
+C:\xampp\htdocs\TDPC14C-\Console190123\bin\Debug\netcoreapp3.1\Console190123.runtimeconfig.json
+C:\xampp\htdocs\TDPC14C-\Console190123\bin\Debug\netcoreapp3.1\Console190123.runtimeconfig.dev.json
+C:\xampp\htdocs\TDPC14C-\Console190123\bin\Debug\netcoreapp3.1\Console190123.dll
+C:\xampp\htdocs\TDPC14C-\Console190123\bin\Debug\netcoreapp3.1\Console190123.pdb
+C:\xampp\htdocs\TDPC14C-\Console190123\obj\Debug\netcoreapp3.1\Console190123.csproj.AssemblyReference.cache
+C:\xampp\htdocs\TDPC14C-\Console190123\obj\Debug\netcoreapp3.1\Console190123.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\TDPC14C-\Console190123\obj\Debug\netcoreapp3.1\Console190123.AssemblyInfoInputs.cache
+C:\xampp\htdocs\TDPC14C-\Console190123\obj\Debug\netcoreapp3.1\Console190123.AssemblyInfo.cs
+C:\xampp\htdocs\TDPC14C-\Console190123\obj\Debug\netcoreapp3.1\Console190123.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\TDPC14C-\Console190123\obj\Debug\netcoreapp3.1\Console190123.dll
+C:\xampp\htdocs\TDPC14C-\Console190123\obj\Debug\netcoreapp3.1\Console190123.pdb
+C:\xampp\htdocs\TDPC14C-\Console190123\obj\Debug\netcoreapp3.1\Console190123.genruntimeconfig.cache
