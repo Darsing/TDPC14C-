@@ -41,7 +41,7 @@ namespace Console190123
             }
             else
             {
-                Console.WriteLine($"Tu hai scritto {domanda2} invece di 'quatto' " +
+                Console.WriteLine($"Tu hai scritto {domanda2} invece di 'quattro' " +
                     $" 'Quattro' 'QUATTRO'");
                 sbagliate += 1;
             }
