@@ -1,0 +1,14 @@
+C:\xampp\htdocs\TDPC14C-\string270123\bin\Debug\netcoreapp3.1\string270123.exe
+C:\xampp\htdocs\TDPC14C-\string270123\bin\Debug\netcoreapp3.1\string270123.deps.json
+C:\xampp\htdocs\TDPC14C-\string270123\bin\Debug\netcoreapp3.1\string270123.runtimeconfig.json
+C:\xampp\htdocs\TDPC14C-\string270123\bin\Debug\netcoreapp3.1\string270123.runtimeconfig.dev.json
+C:\xampp\htdocs\TDPC14C-\string270123\bin\Debug\netcoreapp3.1\string270123.dll
+C:\xampp\htdocs\TDPC14C-\string270123\bin\Debug\netcoreapp3.1\string270123.pdb
+C:\xampp\htdocs\TDPC14C-\string270123\obj\Debug\netcoreapp3.1\string270123.csproj.AssemblyReference.cache
+C:\xampp\htdocs\TDPC14C-\string270123\obj\Debug\netcoreapp3.1\string270123.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\TDPC14C-\string270123\obj\Debug\netcoreapp3.1\string270123.AssemblyInfoInputs.cache
+C:\xampp\htdocs\TDPC14C-\string270123\obj\Debug\netcoreapp3.1\string270123.AssemblyInfo.cs
+C:\xampp\htdocs\TDPC14C-\string270123\obj\Debug\netcoreapp3.1\string270123.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\TDPC14C-\string270123\obj\Debug\netcoreapp3.1\string270123.dll
+C:\xampp\htdocs\TDPC14C-\string270123\obj\Debug\netcoreapp3.1\string270123.pdb
+C:\xampp\htdocs\TDPC14C-\string270123\obj\Debug\netcoreapp3.1\string270123.genruntimeconfig.cache
