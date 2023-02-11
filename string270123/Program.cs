@@ -101,6 +101,7 @@ namespace string270123
             - stampare su schermo se la stringa iniziale comincia o finisce con 
             la stringa dell'utente
          */
+            /*
             string arbitraria = "Sono una ragazza gentile";
             Console.WriteLine("inserisci una stringa");
             string stringa = Console.ReadLine();
@@ -112,6 +113,7 @@ namespace string270123
             {
                 Console.WriteLine($"la stringa finisce con quella parola");
             }
+            */
 
             //esercizio1
             /*
