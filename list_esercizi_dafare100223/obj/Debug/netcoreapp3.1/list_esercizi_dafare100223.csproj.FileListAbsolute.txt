@@ -1,0 +1,14 @@
+C:\xampp\htdocs\TDPC14C-\list_esercizi_dafare100223\bin\Debug\netcoreapp3.1\list_esercizi_dafare100223.exe
+C:\xampp\htdocs\TDPC14C-\list_esercizi_dafare100223\bin\Debug\netcoreapp3.1\list_esercizi_dafare100223.deps.json
+C:\xampp\htdocs\TDPC14C-\list_esercizi_dafare100223\bin\Debug\netcoreapp3.1\list_esercizi_dafare100223.runtimeconfig.json
+C:\xampp\htdocs\TDPC14C-\list_esercizi_dafare100223\bin\Debug\netcoreapp3.1\list_esercizi_dafare100223.runtimeconfig.dev.json
+C:\xampp\htdocs\TDPC14C-\list_esercizi_dafare100223\bin\Debug\netcoreapp3.1\list_esercizi_dafare100223.dll
+C:\xampp\htdocs\TDPC14C-\list_esercizi_dafare100223\bin\Debug\netcoreapp3.1\list_esercizi_dafare100223.pdb
+C:\xampp\htdocs\TDPC14C-\list_esercizi_dafare100223\obj\Debug\netcoreapp3.1\list_esercizi_dafare100223.csproj.AssemblyReference.cache
+C:\xampp\htdocs\TDPC14C-\list_esercizi_dafare100223\obj\Debug\netcoreapp3.1\list_esercizi_dafare100223.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\TDPC14C-\list_esercizi_dafare100223\obj\Debug\netcoreapp3.1\list_esercizi_dafare100223.AssemblyInfoInputs.cache
+C:\xampp\htdocs\TDPC14C-\list_esercizi_dafare100223\obj\Debug\netcoreapp3.1\list_esercizi_dafare100223.AssemblyInfo.cs
+C:\xampp\htdocs\TDPC14C-\list_esercizi_dafare100223\obj\Debug\netcoreapp3.1\list_esercizi_dafare100223.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\TDPC14C-\list_esercizi_dafare100223\obj\Debug\netcoreapp3.1\list_esercizi_dafare100223.dll
+C:\xampp\htdocs\TDPC14C-\list_esercizi_dafare100223\obj\Debug\netcoreapp3.1\list_esercizi_dafare100223.pdb
+C:\xampp\htdocs\TDPC14C-\list_esercizi_dafare100223\obj\Debug\netcoreapp3.1\list_esercizi_dafare100223.genruntimeconfig.cache
