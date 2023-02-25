@@ -13,7 +13,7 @@ namespace list_esercizi_dafare100223
          parsificabili in numero
          */
 
-        /*
+        
         static string[]  GetListaStringhe( List<string> stringhe)
         {
             string[] s = new string[stringhe.Count];
@@ -39,7 +39,7 @@ namespace list_esercizi_dafare100223
             string[] stringa = GetListaStringhe(stringhe);
            
         }
-        */
+        
 
         /*
          - creare una funzione che accetti due array di tipo a scelta
@@ -93,6 +93,8 @@ namespace list_esercizi_dafare100223
         - creare una lista di stringhe che contenga gli elementi
         delle altre liste create
         */
+
+        /*
         static List<string> GetListString(int numeroIntero)
         {
             List<string> listStringhe = new List<string>()
@@ -167,22 +169,14 @@ namespace list_esercizi_dafare100223
             }
 
             //creare una lista che contiene gli elti degli altre liste
-            List<string>elementListes = new List<string>();
-            Console.WriteLine(elementListes);
+            List<string>elementListes = new List<string>() {};
+            
+            
 
-            for(int i=0;i<elementListes.Count;i++)
-            {
-                
-                elementListes.Add(r[i]);
-                elementListes.Add(r1[i]);
-                elementListes.Add(r2[i]);
-                elementListes.Add(r3[i]);
-
-                Console.WriteLine(elementListes[i]);
-            }
+            
         }
 
-
+        */
 
 
 

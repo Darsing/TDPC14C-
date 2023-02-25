@@ -1,0 +1,14 @@
+C:\xampp\htdocs\TDPC14C-\Ciclo_foreach\bin\Debug\netcoreapp3.1\Ciclo_foreach.exe
+C:\xampp\htdocs\TDPC14C-\Ciclo_foreach\bin\Debug\netcoreapp3.1\Ciclo_foreach.deps.json
+C:\xampp\htdocs\TDPC14C-\Ciclo_foreach\bin\Debug\netcoreapp3.1\Ciclo_foreach.runtimeconfig.json
+C:\xampp\htdocs\TDPC14C-\Ciclo_foreach\bin\Debug\netcoreapp3.1\Ciclo_foreach.runtimeconfig.dev.json
+C:\xampp\htdocs\TDPC14C-\Ciclo_foreach\bin\Debug\netcoreapp3.1\Ciclo_foreach.dll
+C:\xampp\htdocs\TDPC14C-\Ciclo_foreach\bin\Debug\netcoreapp3.1\Ciclo_foreach.pdb
+C:\xampp\htdocs\TDPC14C-\Ciclo_foreach\obj\Debug\netcoreapp3.1\Ciclo_foreach.csproj.AssemblyReference.cache
+C:\xampp\htdocs\TDPC14C-\Ciclo_foreach\obj\Debug\netcoreapp3.1\Ciclo_foreach.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\TDPC14C-\Ciclo_foreach\obj\Debug\netcoreapp3.1\Ciclo_foreach.AssemblyInfoInputs.cache
+C:\xampp\htdocs\TDPC14C-\Ciclo_foreach\obj\Debug\netcoreapp3.1\Ciclo_foreach.AssemblyInfo.cs
+C:\xampp\htdocs\TDPC14C-\Ciclo_foreach\obj\Debug\netcoreapp3.1\Ciclo_foreach.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\TDPC14C-\Ciclo_foreach\obj\Debug\netcoreapp3.1\Ciclo_foreach.dll
+C:\xampp\htdocs\TDPC14C-\Ciclo_foreach\obj\Debug\netcoreapp3.1\Ciclo_foreach.pdb
+C:\xampp\htdocs\TDPC14C-\Ciclo_foreach\obj\Debug\netcoreapp3.1\Ciclo_foreach.genruntimeconfig.cache
