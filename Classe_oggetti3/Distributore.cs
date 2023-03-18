@@ -9,11 +9,11 @@ namespace Classe_oggetti3
         public string Nome { get; set; }
         public float Costo { get; set; }
 
-        public Distributore(string nome, float costo)
-        {
-            this.Nome = nome;
-            this.Costo = costo;
-        }
+        //public Distributore(string nome, float costo)
+        //{
+        //    this.Nome = nome;
+        //    this.Costo = costo;
+        //}
 
         public virtual void Stampa()
         {

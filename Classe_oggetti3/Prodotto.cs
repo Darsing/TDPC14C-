@@ -6,10 +6,10 @@ namespace Classe_oggetti3
 {
     internal class Prodotto :Distributore
     {
-        public Prodotto(string Nome, float Costo):base(Nome, Costo)
-        {
+        //public Prodotto(string Nome, float Costo):base(Nome, Costo)
+        //{
 
-        }
+        //}
 
         public override void Stampa()
         {

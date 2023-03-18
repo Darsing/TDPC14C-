@@ -100,15 +100,22 @@ namespace Classe_oggetti3
         */
         static void Main(string[] args)
         {
-            List<Distributore> distributores= new List<Distributore>()
+            //List<Distributore> distributores= new List<Distributore>()
+            //{
+            //     new Distributore("MDSN",20),
+            //     new Prodotto("uva",2f),
+            //     new Prodotto("mela", 1f),
+            //     new Prodotto("pera", 2.5f)
+            //};
+
+            List<Distributore> distributores = new List<Distributore>()
             {
-                 new Distributore("MDSN",20),
-                 new Prodotto("uva",2f),
-                 new Prodotto("mela", 1f),
-                 new Prodotto("pera", 2.5f)
+                new Distributore(){Nome="BNVC",Costo=30f},
+                new Prodotto(){Nome="patatina",Costo=1.9f},
+                new Prodotto(){Nome="panino",Costo=3.5f},
+                new Prodotto(){Nome="succo",Costo=1.5f},
             };
-           
-            foreach(Distributore distributore in distributores)
+            foreach (Distributore distributore in distributores)
             {
                 distributore.Stampa();
             }
