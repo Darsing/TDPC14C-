@@ -98,6 +98,7 @@ namespace Classe_oggetti3
         - stampare su schermo gli oggetti tramite il metodo Stampa
         di Distrubutore
         */
+
         static void Main(string[] args)
         {
             //List<Distributore> distributores= new List<Distributore>()
@@ -119,8 +120,7 @@ namespace Classe_oggetti3
             {
                 distributore.Stampa();
             }
-        }
 
-        
+        }
     }
 }

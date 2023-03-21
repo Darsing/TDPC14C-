@@ -17,7 +17,9 @@ namespace Classe_oggetti3
 
         public virtual void Stampa()
         {
-            Console.WriteLine("Nome del distributore: "+ this.Nome +", il costo: " +this.Costo+ " £");
+            Console.WriteLine("Nome del distributore: " + this.Nome + ", il costo: " + this.Costo + " £");
         }
+
+
     }
 }
