@@ -1,0 +1,14 @@
+C:\xampp\htdocs\TDPC14C-\EserciziLotteria210323\bin\Debug\netcoreapp3.1\EserciziLotteria210323.exe
+C:\xampp\htdocs\TDPC14C-\EserciziLotteria210323\bin\Debug\netcoreapp3.1\EserciziLotteria210323.deps.json
+C:\xampp\htdocs\TDPC14C-\EserciziLotteria210323\bin\Debug\netcoreapp3.1\EserciziLotteria210323.runtimeconfig.json
+C:\xampp\htdocs\TDPC14C-\EserciziLotteria210323\bin\Debug\netcoreapp3.1\EserciziLotteria210323.runtimeconfig.dev.json
+C:\xampp\htdocs\TDPC14C-\EserciziLotteria210323\bin\Debug\netcoreapp3.1\EserciziLotteria210323.dll
+C:\xampp\htdocs\TDPC14C-\EserciziLotteria210323\bin\Debug\netcoreapp3.1\EserciziLotteria210323.pdb
+C:\xampp\htdocs\TDPC14C-\EserciziLotteria210323\obj\Debug\netcoreapp3.1\EserciziLotteria210323.csproj.AssemblyReference.cache
+C:\xampp\htdocs\TDPC14C-\EserciziLotteria210323\obj\Debug\netcoreapp3.1\EserciziLotteria210323.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\TDPC14C-\EserciziLotteria210323\obj\Debug\netcoreapp3.1\EserciziLotteria210323.AssemblyInfoInputs.cache
+C:\xampp\htdocs\TDPC14C-\EserciziLotteria210323\obj\Debug\netcoreapp3.1\EserciziLotteria210323.AssemblyInfo.cs
+C:\xampp\htdocs\TDPC14C-\EserciziLotteria210323\obj\Debug\netcoreapp3.1\EserciziLotteria210323.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\TDPC14C-\EserciziLotteria210323\obj\Debug\netcoreapp3.1\EserciziLotteria210323.dll
+C:\xampp\htdocs\TDPC14C-\EserciziLotteria210323\obj\Debug\netcoreapp3.1\EserciziLotteria210323.pdb
+C:\xampp\htdocs\TDPC14C-\EserciziLotteria210323\obj\Debug\netcoreapp3.1\EserciziLotteria210323.genruntimeconfig.cache
