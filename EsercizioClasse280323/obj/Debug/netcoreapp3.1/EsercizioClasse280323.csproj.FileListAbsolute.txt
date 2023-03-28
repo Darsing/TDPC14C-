@@ -1,0 +1,14 @@
+C:\xampp\htdocs\TDPC14C-\EsercizioClasse280323\bin\Debug\netcoreapp3.1\EsercizioClasse280323.exe
+C:\xampp\htdocs\TDPC14C-\EsercizioClasse280323\bin\Debug\netcoreapp3.1\EsercizioClasse280323.deps.json
+C:\xampp\htdocs\TDPC14C-\EsercizioClasse280323\bin\Debug\netcoreapp3.1\EsercizioClasse280323.runtimeconfig.json
+C:\xampp\htdocs\TDPC14C-\EsercizioClasse280323\bin\Debug\netcoreapp3.1\EsercizioClasse280323.runtimeconfig.dev.json
+C:\xampp\htdocs\TDPC14C-\EsercizioClasse280323\bin\Debug\netcoreapp3.1\EsercizioClasse280323.dll
+C:\xampp\htdocs\TDPC14C-\EsercizioClasse280323\bin\Debug\netcoreapp3.1\EsercizioClasse280323.pdb
+C:\xampp\htdocs\TDPC14C-\EsercizioClasse280323\obj\Debug\netcoreapp3.1\EsercizioClasse280323.csproj.AssemblyReference.cache
+C:\xampp\htdocs\TDPC14C-\EsercizioClasse280323\obj\Debug\netcoreapp3.1\EsercizioClasse280323.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\TDPC14C-\EsercizioClasse280323\obj\Debug\netcoreapp3.1\EsercizioClasse280323.AssemblyInfoInputs.cache
+C:\xampp\htdocs\TDPC14C-\EsercizioClasse280323\obj\Debug\netcoreapp3.1\EsercizioClasse280323.AssemblyInfo.cs
+C:\xampp\htdocs\TDPC14C-\EsercizioClasse280323\obj\Debug\netcoreapp3.1\EsercizioClasse280323.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\TDPC14C-\EsercizioClasse280323\obj\Debug\netcoreapp3.1\EsercizioClasse280323.dll
+C:\xampp\htdocs\TDPC14C-\EsercizioClasse280323\obj\Debug\netcoreapp3.1\EsercizioClasse280323.pdb
+C:\xampp\htdocs\TDPC14C-\EsercizioClasse280323\obj\Debug\netcoreapp3.1\EsercizioClasse280323.genruntimeconfig.cache
