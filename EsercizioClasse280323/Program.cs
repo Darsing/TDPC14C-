@@ -19,22 +19,31 @@ namespace EsercizioClasse280323
             
             
             Libreria libreria =new Libreria();
-
             Scaffale scaffale = new Scaffale();
-            for (int i = 0; i < 20; i++)
+            for (int i=0;i<30;i++)
             {
-                
-                Libro libro= new Libro();
-                libro.Authore = " Autore " + i;
+               Libro libro= new Libro();
+                libro.Author="Harry " + i;
                 libro.Anno = 1990 + i;
-                scaffale.libri.Add(libro);
+                libro.NumeroDiPagine = 150;
+                libro.Name = "Adventur";
+                scaffale.prodotti.Add(libro);
 
-                scaffale.Categori = "comico " + i;
-                scaffale.Prodotto = "cd ";
-                libreria.scaffali.Add(scaffale);
+                CD cd = new CD();
+                cd.Author = "Jachson";
+                cd.Anno = 1980 + i;
+                cd.Durata = 105;
+                cd.Name = "Tony";
+                scaffale.prodotti.Add(cd);
+
             }
-            scaffale.StampaLibri();
+            
+            libreria.scaffali.Add(scaffale);
             libreria.Stampa();
+           
+            
+           
+            
 
         }
     }

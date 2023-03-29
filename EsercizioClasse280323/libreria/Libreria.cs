@@ -10,10 +10,16 @@ namespace EsercizioClasse280323.libreria
 
         public void Stampa()
         {
-            foreach(var scaffalo in this.scaffali)
+            foreach(Scaffale s in this.scaffali)
             {
-                Console.WriteLine("Categoria "+ scaffalo.Categori+ "Il tipo è un "+scaffalo.Prodotto);
+                foreach(var i in s.prodotti)
+                {
+                    i.StampaProdotti();
+                    Console.WriteLine();
+                }
+                
             }
         }
+
     }
 }
