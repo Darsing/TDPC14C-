@@ -32,7 +32,7 @@ namespace EsercizioClasse280323
                 CD cd = new CD();
                 cd.Author = "Jachson";
                 cd.Anno = 1980 + i;
-                cd.Durata = 105;
+                cd.Durata = 65+i;
                 cd.Name = "Tony";
                 scaffale.prodotti.Add(cd);
 
