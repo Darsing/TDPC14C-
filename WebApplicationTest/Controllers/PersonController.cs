@@ -79,5 +79,49 @@ namespace WebApplicationTest.Controllers
                 Value = values[id]
             };
         }
+
+        [HttpGet("GetListaMusic")]
+
+        public async Task<object> GetListaMusic()
+        {
+
+            //List<MusicModel> result = new List<MusicModel>();
+            //MusicModel model1 = new MusicModel();
+            //model1.Cantante = "Queen";
+            //model1.Canzone = "Love of my life";
+            //result.Add(model1);
+
+            List<MusicModel> result = new List<MusicModel>();
+            result.Add(new MusicModel()
+            {
+                Cantante= "Queen",
+                Canzone= "Love of my life"
+            });
+            result.Add(new MusicModel()
+            {
+                Cantante = "Laura Pausina",
+                Canzone = "Ti amo "
+            });
+            result.Add(new MusicModel()
+            {
+                Cantante = "Davide John",
+                Canzone = "Because day"
+            });
+            return Ok(result);
+            
+        }
+
+        [HttpPost("GetFormValue")]
+        public async Task<IActionResult> GetFormValue([FromBody] UtenteModel model)
+        {
+           //oggetti anonimo
+            var response = new
+            {
+                value = "Input ricevuto correttamente"
+            };
+            return Ok(response);
+        }
     }
+
+    
 }

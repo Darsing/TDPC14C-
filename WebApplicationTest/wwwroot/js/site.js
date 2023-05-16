@@ -1,4 +1,4 @@
-﻿//questa è una funzione globale insertPerson()
+﻿//questa è una funzione globale ajaxCallPerson()
 //il body è la richiesta oppure il payload della riechiesta che ho mandato al backend
 //qdo faccio la richiesta ho questo success ,error,always
 //con success: function (data, status) è una funzione con 2 parametri
@@ -6,7 +6,7 @@
 //invece status è la response della nostra richiesta in questo caso è success
 
 //url: "/api/Person/InsertPerson",questo è endpoint (il controller si chiama Person e il nome è Post)
-function insertPerson() {
+function ajaxCallPerson() {
     body.ID = "a3b5d487-0000-0000-0000-14d5c7813c8a";
     body.Nome = "Dante";
     body.Cognome = "Alighieri";
@@ -16,7 +16,7 @@ function insertPerson() {
         contentType: "application/json; charset=utf-8",
         data: JSON.stringify(body),
         dataType: "json",
-        success: function (data, status) { 
+        success: function (data, status) {
             console.log(body);
             console.log(data);
             console.log(status);
@@ -30,7 +30,7 @@ function insertPerson() {
         },
         always: function () { }
     });
-
+};
     //funzione globale ajaxCallListaStringhe() che viene chiamata dentro la view/home/javascript.cshtml
     //Questo non ha il parametro data(body)
     //Lui sta chiamando un controller che si chiama Api e un endpoint che si chiama GetListaStringhe
@@ -58,6 +58,8 @@ function insertPerson() {
             always: function () { }
         });
     };
+    
+
 
     //Passaggio di un dato prendendolo da un input
     //Qui viene messa un value che è =  $("#DDLValue").val() => significa che
@@ -65,24 +67,77 @@ function insertPerson() {
     //Poi si compone url = "/api/API/GetDDLValue?id=" + value;
     //?id=" + value questa è una querry string (usarla se devi passare pochi parametri)
     //perchè non è sicura
-    function ajaxCallDDLValue() {
-        var value = $("#DDLValue").val();
-        var url = "/api/Person/GetDDLValue?id=" + value;
-        $.ajax({
-            method: "GET",
-            url: url,
-            contentType: "application/json; charset=utf-8",
-            dataType: "json",
-            success: function (data, status) {
-                console.log(data);
-                $("#resultDivDDLValue").append("<br/><div>" + data.value + "</div>");
-                this.always();
-            },
-            error: function (error, status) {
-                console.log(error);
-                console.log(status);
-                this.always();
-            },
-            always: function () { }
-        });
+function ajaxCallDDLValue() {
+    var value = $("#DDLValue").val();
+    var url = "/api/Person/GetDDLValue?id=" + value;
+    $.ajax({
+        method: "GET",
+        url: url,
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data, status) {
+            console.log(data);
+            $("#resultDivDDLValue").append("<br/><div>" + data.value + "</div>");
+            this.always();
+        },
+        error: function (error, status) {
+            console.log(error);
+            console.log(status);
+            this.always();
+        },
+        always: function () { }
+    });
+};
+
+function ajaxCallListaMusic() {
+
+    $.ajax({
+        method: "GET",
+        url: "/api/Person/GetListaMusic",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data, status) {
+            console.log(data);
+            for (var i = 0; i < data.length; i++) {//questa è una collection
+                $("#resultMusic").append("<br/><div>" + data[i].cantante +" "+ data[i].canzone + "</div>");
+            }
+            this.always();
+        },
+        error: function (error, status) {
+            console.log(error);
+            console.log(status);
+            this.always();
+        },
+        always: function () { }
+    });
+};
+
+function ajaxCallInputUtente() {
+    //vado a prendere il valore dell input
+    var value = $("#inputText").val();
+    //var url = "api/Person/GetFormValue"; //senza id  "/api/Person/GetFormValue?id=" + value;
+    //E meglio fare con il body
+    var body = {};
+    body.value = value;
+    $.ajax({
+        method: "POST",
+        url: "api/Person/GetFormValue",
+        contentType: "application/json; charset=utf-8",
+        data: JSON.stringify(body),
+        dataType: "json",
+        success: function (data, status) {
+            console.log(body);
+            console.log(data);
+            console.log(status);
+            $("#resultInput").append("<br/><div>" + data.value + "</div>");
+            this.always();
+        },
+        error: function (error, status) {
+            console.log(body);
+            console.log(error);
+            console.log(status);
+            this.always();
+        },
+        always: function () { }
+    });
 };
