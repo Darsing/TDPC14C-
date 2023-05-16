@@ -1,0 +1,14 @@
+C:\xampp\htdocs\TDPC14C-\ripasso12052023\bin\Debug\netcoreapp3.1\ripasso12052023.exe
+C:\xampp\htdocs\TDPC14C-\ripasso12052023\bin\Debug\netcoreapp3.1\ripasso12052023.deps.json
+C:\xampp\htdocs\TDPC14C-\ripasso12052023\bin\Debug\netcoreapp3.1\ripasso12052023.runtimeconfig.json
+C:\xampp\htdocs\TDPC14C-\ripasso12052023\bin\Debug\netcoreapp3.1\ripasso12052023.runtimeconfig.dev.json
+C:\xampp\htdocs\TDPC14C-\ripasso12052023\bin\Debug\netcoreapp3.1\ripasso12052023.dll
+C:\xampp\htdocs\TDPC14C-\ripasso12052023\bin\Debug\netcoreapp3.1\ripasso12052023.pdb
+C:\xampp\htdocs\TDPC14C-\ripasso12052023\obj\Debug\netcoreapp3.1\ripasso12052023.csproj.AssemblyReference.cache
+C:\xampp\htdocs\TDPC14C-\ripasso12052023\obj\Debug\netcoreapp3.1\ripasso12052023.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\TDPC14C-\ripasso12052023\obj\Debug\netcoreapp3.1\ripasso12052023.AssemblyInfoInputs.cache
+C:\xampp\htdocs\TDPC14C-\ripasso12052023\obj\Debug\netcoreapp3.1\ripasso12052023.AssemblyInfo.cs
+C:\xampp\htdocs\TDPC14C-\ripasso12052023\obj\Debug\netcoreapp3.1\ripasso12052023.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\TDPC14C-\ripasso12052023\obj\Debug\netcoreapp3.1\ripasso12052023.dll
+C:\xampp\htdocs\TDPC14C-\ripasso12052023\obj\Debug\netcoreapp3.1\ripasso12052023.pdb
+C:\xampp\htdocs\TDPC14C-\ripasso12052023\obj\Debug\netcoreapp3.1\ripasso12052023.genruntimeconfig.cache

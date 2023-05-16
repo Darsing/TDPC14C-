@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ripasso12052023/1.0.0": {
+        "runtime": {
+          "ripasso12052023.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ripasso12052023/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
