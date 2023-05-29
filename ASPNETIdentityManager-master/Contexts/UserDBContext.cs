@@ -1,13 +1,14 @@
-﻿using IdentityAuthDB.DB.Entities;
+﻿using ASPNETIdentityManager.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace IdentityAuthDB.DB
+namespace ASPNETIdentityManager.Contexts
 {
-    //Questa class UserDBContext eredita la classe IdentityDbContext<User> del framework
-    //e questa classe mi da le funzionalità base del framework
-    //Una volta creata questa classe abbiamo il dbcontext per gestire authetificazione
-    public class UserDBContext :IdentityDbContext<User>
+    public class UserDBContext : IdentityDbContext<User>
     {
         public UserDBContext(DbContextOptions<UserDBContext> options)
             : base(options)

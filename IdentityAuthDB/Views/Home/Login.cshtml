@@ -6,9 +6,12 @@
 @using Microsoft.AspNetCore.Identity
 @using IdentityAuthDB.DB.Entities
 @*
-    Using importa solo un namespace in modo da usarlo
+    Using importa solo un namespace in modo da usarlo qui
     questo è un modo di fare la depandency injection @inject
-    in questa view avro bisogno di questo oggetto SignInManager
+    in questa view avro bisogno di questo oggetto di tipo SignInManager
+    Se non sono loggato fa mi vedere questa view(form) invece fa mi 
+    vedere questo div .
+    SignInManager<User> SignInManager è quello che ho agguinto dentro il file startup
 *@
 @inject SignInManager<User> SignInManager
 @if (!SignInManager.IsSignedIn(User))

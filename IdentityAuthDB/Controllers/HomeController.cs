@@ -57,7 +57,7 @@ namespace IdentityAuthDB.Controllers
      */
     public class HomeController : Controller
     {
-
+        //Dentro il controller è cosi che si fa la dipendecy injection con il costruttore
         private SignInManager<User> signInManager;
         private UserManager<User> userManager;
         private UserDBContext dbContext;
@@ -89,13 +89,16 @@ namespace IdentityAuthDB.Controllers
         }
         //questi 2 endpoint [Authorize],[Authorize(Roles = "Admin")] 
         //Hanno un attributo Authorize significa che per accedere a questa tu devi essere loggato
-        //qualsiasi la tua utenza tu devi loggato
+        //qualsiasi la tua utenza tu devi essere loggato
         //Con l altro per potter entrare tu devi avere il Roles Admin
         public IActionResult Login()
         {
             return View();
         }
 
+        // [HttpPost] questa è un endpoint mvc e return una view Redirect("Index");
+        // perche ereditano da controller e non da controller base invece questi sono delle get
+        //public IActionResult Index()
         [HttpPost]
         public async Task<IActionResult> Login(LoginModel loginModel)
         {
@@ -122,6 +125,7 @@ namespace IdentityAuthDB.Controllers
             return Redirect("Index");
         }
 
+        //questa controlla se c'è loggato di slogga(Logout)
         [Authorize]
         public async Task<IActionResult> Logout()
         {
