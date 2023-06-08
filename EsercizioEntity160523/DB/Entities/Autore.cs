@@ -5,9 +5,8 @@ namespace EsercizioEntity160523.DB.Entities
 {
     public class Autore
     {
-        public Guid IdAutore { get; set; }
-        public string Nome { get; set; }
+        public Guid IDAutore { get; set; }
+        public string NomeA { get; set; }
 
-        public List<Libro> libri { get; set; }
     }
 }

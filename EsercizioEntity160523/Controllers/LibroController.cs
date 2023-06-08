@@ -22,20 +22,24 @@ namespace EsercizioEntity160523.Controllers
         public async Task<IActionResult> InsertLibro([FromBody] LibreriaModel model)
         {
             Libro libro = new Libro();
-            libro.Nome = model.Nome;
+            libro.Nome = model.NomeL;
             libro.NumeroPagine = model.NumeroDiPagine;
+            libro.NomeA = model.NomeA;
             this.repository.InsertLibri(libro);
             return Ok(200);
         }
 
-        [HttpGet("GetAutore")]
+        [HttpGet("GetLibro")]
         public async Task<Libro> GetLibro()
         {
+           
+            
             Libro libro = new Libro()
             {
-                Id = System.Guid.NewGuid(),
-                Nome = "Dante",
-                NumeroPagine= 100
+                IDLibro = System.Guid.NewGuid(),
+                Nome = "pipo",
+                NumeroPagine = 100,
+                NomeA = "Maria"
 
             };
             return libro;

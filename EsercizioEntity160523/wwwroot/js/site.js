@@ -1,6 +1,6 @@
 ﻿function insertAutore() {
     var body = {};
-    body.Nome = $('#nameAutore').val();
+    body.NomeA = $('#nameAutore').val();
     $.ajax({
         method: "POST",
         url: "/api/Autore/InsertAutore",
@@ -32,7 +32,7 @@ function getAutore() {
         success: function (data, status) {
             console.log(data);
             for (var i = 0; i < data.length; i++) {
-                $("#resultAutori").append("<br/><div>" + " " + data[i].nome + "</div>");
+                $("#resultAutore").append("<br/><div>" + " " + data[i].NomeA + "</div>");
             }
             this.always();
         },
@@ -49,6 +49,7 @@ function insertLibro() {
     var body = {};
     body.Nome = $('#nameLibro').val();
     body.NumeroPagine = $('#numeroLibro').val();
+    body.NomeA = $('#nameAutore').val();
     $.ajax({
         method: "POST",
         url: "/api/Libro/InsertLibro",
@@ -80,7 +81,7 @@ function getLibro() {
         success: function (data, status) {
             console.log(data);
             for (var i = 0; i < data.length; i++) {
-                $("#resultAutori").append("<br/><div>" + " " + data[i].nome + " " + data[i].numeropagine+ "</div>");
+                $("#resultLibro").append("<br/><div>" + " " + data[i].nome + " " + data[i].numeroPagine+ " "+data[i].nomeA+ "</div>");
             }
             this.always();
         },

@@ -18,11 +18,11 @@ namespace EsercizioEntity160523.DB
             this.DBContext.SaveChanges();
         }
 
-        public List<Libro> GetAutores()
-        {
-            //select * from persons
-            List<Libro> result = this.DBContext.Libres.ToList();
-            return result;
-        }
+        //public List<Libro> GetLibri()
+        //{
+            
+        //    List<Libro> result = this.DBContext.Libres.ToList();
+        //    return result;
+        //}
     }
 }

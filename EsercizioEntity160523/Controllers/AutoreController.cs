@@ -25,7 +25,7 @@ namespace EsercizioEntity160523.Controllers
         public async Task<IActionResult> InsertAutore([FromBody] LibreriaModel model)
         {
             Autore autore = new Autore();
-            autore.Nome = model.Nome;
+            autore.NomeA = model.NomeA;
             this.repository.InsertAutores(autore);
             return Ok(200);
         }
@@ -33,10 +33,9 @@ namespace EsercizioEntity160523.Controllers
         [HttpGet("GetAutore")]
         public async Task<Autore> GetAutore()
         {
-            this.repository.GetAutores();
             var autori = new Autore()
             {
-                Nome="Van"
+                NomeA= "Maria"
             };
             return autori;
         }
