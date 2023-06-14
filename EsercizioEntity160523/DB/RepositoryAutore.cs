@@ -15,15 +15,14 @@ namespace EsercizioEntity160523.DB
 
         public void InsertAutores(Autore autore)
         {
-            this.DBContext.Autores.Add(autore);
+            this.DBContext.Autori.Add(autore);
             this.DBContext.SaveChanges();
         }
 
-        //public List<Autore> GetAutores()
-        //{
-            
-        //    List<Autore> result = this.DBContext.Autores.ToList();
-        //    return result;
-        //}
+        public List<Autore> GetAutori()
+        {
+            List<Autore> autores = this.DBContext.Autori.ToList();
+            return autores;
+        }
     }
 }

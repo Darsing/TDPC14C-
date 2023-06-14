@@ -1,4 +1,5 @@
 ﻿using EsercizioEntity160523.DB.Entities;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -14,15 +15,16 @@ namespace EsercizioEntity160523.DB
 
         public void InsertLibri(Libro libro)
         {
-            this.DBContext.Libres.Add(libro);
+            this.DBContext.Libri.Add(libro);
             this.DBContext.SaveChanges();
         }
 
-        //public List<Libro> GetLibri()
-        //{
-            
-        //    List<Libro> result = this.DBContext.Libres.ToList();
-        //    return result;
-        //}
+        //con Include sto facendo la join
+        public List<Libro> GetLibro()
+        {
+            List<Libro> libri = this.DBContext.Libri.Include(l => l.Autore).ToList();
+            return libri;
+        }
     }
 }
+

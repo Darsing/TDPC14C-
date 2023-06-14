@@ -10,8 +10,8 @@ namespace EsercizioEntity160523.DB
             : base(options)
         {
         }
-        public DbSet<Autore> Autores { get; set; }
-        public DbSet<Libro> Libres { get; set; }
+        public DbSet<Autore> Autori { get; set; }
+        public DbSet<Libro> Libri { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

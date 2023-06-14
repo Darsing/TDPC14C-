@@ -3,6 +3,7 @@ using EsercizioEntity160523.DB.Entities;
 using EsercizioEntity160523.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace EsercizioEntity160523.Controllers
@@ -22,27 +23,22 @@ namespace EsercizioEntity160523.Controllers
         public async Task<IActionResult> InsertLibro([FromBody] LibreriaModel model)
         {
             Libro libro = new Libro();
-            libro.Nome = model.NomeL;
-            libro.NumeroPagine = model.NumeroDiPagine;
-            libro.NomeA = model.NomeA;
+            libro.Nome = model.Nome;
+            libro.NumeroPagine = int.Parse(model.NumeroDiPagine);
             this.repository.InsertLibri(libro);
             return Ok(200);
         }
 
         [HttpGet("GetLibro")]
-        public async Task<Libro> GetLibro()
+        public async Task<object> GetLibro()
         {
-           
-            
-            Libro libro = new Libro()
-            {
-                IDLibro = System.Guid.NewGuid(),
-                Nome = "pipo",
-                NumeroPagine = 100,
-                NomeA = "Maria"
 
+            List<Libro> libri = this.repository.GetLibro();
+            return new
+            {
+                result = libri
             };
-            return libro;
+
         }
     }
 }
